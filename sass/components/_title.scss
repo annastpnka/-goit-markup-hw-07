@@ -1,0 +1,7 @@
+.title {
+  @include font(700, 36px, 42px);
+  text-align: center;
+}
+.title_margin-b_50 {
+  margin-bottom: 50px;
+}

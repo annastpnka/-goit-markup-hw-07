@@ -1,0 +1,50 @@
+.icons-list {
+  display: flex;
+  justify-content: space-between;
+}
+.img-box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-gray);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.img-box__icons {
+  fill: var(--lite-black);
+}
+.subtitle {
+  @include font(700, 14px, 16px);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--second-color);
+}
+.icons-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+.list-intro-img {
+  display: flex;
+  gap: 0 30px;
+}
+.intro-img-item {
+  position: relative;
+}
+.intro-text-overlay {
+  @extend %flex-standart;
+  @include font(700, 14px, 16px);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--standart-white);
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+}

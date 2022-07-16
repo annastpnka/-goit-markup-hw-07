@@ -1,0 +1,22 @@
+.logo-link {
+  @include font(700, 26px, 31px);
+  font-family: var(--logo-font);
+  margin-right: 92px;
+
+  & > .logo-link_color_main {
+    color: var(--main-color);
+  }
+}
+// хедер
+.main-nav-logo {
+  display: flex;
+  align-items: center;
+}
+.logo-main {
+  padding: 25px 0px;
+}
+// футер
+.logo-footer {
+  color: var(--standart-white);
+  margin-right: 0;
+}
