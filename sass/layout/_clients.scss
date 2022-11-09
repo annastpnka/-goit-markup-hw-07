@@ -2,9 +2,9 @@
   display: flex;
   gap: 30px;
 }
-.clients-item {
-  display: flex;
-}
+// .clients-item {
+//   display: flex;
+// }
 .clients-link {
   @extend %flex-standart;
   width: 170px;
